@@ -12,7 +12,7 @@ int solution(int X, int Y, int D){
 
     int saltos = distance % D ==0 ? distance/D : distance/D +1;
 
-    printf("%d",saltos);
+    return saltos;
 
 }
 
